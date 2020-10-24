@@ -12,6 +12,6 @@ Step 5: Build and run docker as below
 
 `sudo docker build --network=host -t sspe .`
 
-`sudo docker run -it --rm --network=host sspe 3dbox.data yolo-pose.cfg backup/init.weights`
+`sudo docker run --gpus all -it --rm --network=host sspe 3dbox.data yolo-pose.cfg backup/init.weights`
 
 
