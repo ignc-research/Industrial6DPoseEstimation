@@ -16,5 +16,4 @@ Step 4: Build and run docker as below
 
 `sudo docker run -it --rm --network=host sspe 3dbox.data yolo-pose.cfg backup/init.weights`
 
-Step 5: python/python3 train.py
 
