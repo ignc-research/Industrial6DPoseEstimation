@@ -1,0 +1,5 @@
+train  = train_3dbox.txt
+valid  = test_3dbox.txt
+backup = backup
+mesh = 3dbox0922marker.ply
+diam = 0.6
