@@ -5,10 +5,10 @@ RUN pip install opencv-python scipy argparse urllib3
 COPY . /workspace/SSPE_TUBerlin
 WORKDIR /workspace/SSPE_TUBerlin
 
-ENTRYPOINT ["python3", "train.py"]
+#ENTRYPOINT ["python3", "train.py"]
 
 # In one terminal
 # sudo docker build --network=host -t sspe .
-# sudo docker run -it --rm --network=host sspe 3dbox.data yolo-pose.cfg backup/init.weights
+# sudo docker run -it --rm --network=host sspe
 
 
