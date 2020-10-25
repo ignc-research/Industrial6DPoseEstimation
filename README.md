@@ -1,5 +1,5 @@
 # How to run
-Case 1: Training by Linh's data set only
+### Case 1: Training by Linh's data set only
 
 Step 1: Clone this repo into your laptop/PC
 
@@ -18,7 +18,7 @@ Step 5: Build and run docker as below
 Step 6: Run `python/python3 train.py 3dbox.data yolo-pose.cfg backup/init.weights`
 
 
-Case 2: Training by combined dataset
+### Case 2: Training by combined dataset
 
 Step 1: Clone this repo into your laptop/PC
 
