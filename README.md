@@ -36,4 +36,14 @@ Step 5: Build and run docker as below
 
 Step 6: Run `python/python3 combined_train.py combined_3dbox.data yolo-pose.cfg backup/init.weights`
 
+### Case 3: Testing model by a single image
 
+`python draw_image.py --p "path_to_weight_file" --i "path_to_input_image"`
+
+Example: `python draw_image.py --p model.weights --i input_image.png`
+
+### Case 4: Testing model by a video
+
+`python draw_image.py --p "path_to_weight_file" --i "path_to_input_video"`
+
+Example: `python draw_video.py --p model.weights --i input_video.mp4 `
