@@ -5,7 +5,7 @@ Step 1: Clone this repo into your laptop/PC
 
 Step 2: `cd Industrial6DPoseEstimation`
 
-Step 3: Download dataset from link (https://chairignc.slack.com/files/UEKS45J0L/F01DBB7QX3P/new-combined-data.zip) and put inside this repo with all images inside JPEGImages and all labels inside labels folder
+Step 3: Download dataset from link (https://files.slack.com/files-pri/TEL7B5P29-F01D610RAH3/download/doube-augmented.zip) and put inside this repo with all images inside JPEGImages and all labels inside labels folder
 
 Step 4: Download pre-trained model weights and put inside `backup` folder
 
@@ -24,7 +24,7 @@ Step 1: Clone this repo into your laptop/PC
 
 Step 2: `cd Industrial6DPoseEstimation`
 
-Step 3: Download dataset from link (AAA) 
+Step 3: Download dataset from link (https://chairignc.slack.com/files/UEKS45J0L/F01DBB7QX3P/new-combined-data.zip) and put inside this repo with all images inside JPEGImages and all labels inside labels folder
 
 Step 4: Download pre-trained model weights and put inside `backup` folder
 
