@@ -314,7 +314,7 @@ if __name__ == "__main__":
     # bg_file_names = get_all_files('LINEMOD/ape/JPEGImages')
 
     # Thang's dataset
-    bg_file_names = get_all_files('data')
+    bg_file_names = get_all_files('new-combined-data')
 
     # Train parameters
     max_epochs    = 100000 # max_batches*batch_size/nsamples+1
