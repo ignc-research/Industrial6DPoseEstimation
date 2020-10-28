@@ -64,6 +64,6 @@ Step 5: Build and run docker as below
 
 `sudo docker run --gpus all -it --rm --network=host sspe`
 
-Step 6: Run `python/python3 python blender_train.py blender_3dbox.data yolo-pose.cfg backup/init.weights`
+Step 6: Run `python/python3 blender_train.py blender_3dbox.data yolo-pose.cfg backup/init.weights`
 
 
