@@ -341,7 +341,6 @@ new-combined-data/JPEGImages/1_output_0252.png
 new-combined-data/JPEGImages/001321.png
 new-combined-data/JPEGImages/000416.png
 new-combined-data/JPEGImages/000665.png
-new-combined-data/JPEGImages/.DS_Store
 new-combined-data/JPEGImages/000579.png
 new-combined-data/JPEGImages/000923.png
 new-combined-data/JPEGImages/001388.png
