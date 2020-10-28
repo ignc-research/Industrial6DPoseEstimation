@@ -47,3 +47,23 @@ Example: `python draw_image.py --p model.weights --i input_image.png`
 `python draw_image.py --p "path_to_weight_file" --i "path_to_input_video"`
 
 Example: `python draw_video.py --p model.weights --i input_video.mp4 `
+
+### Case 5: Training by Blender's dataset
+
+Step 1: Clone this repo into your laptop/PC
+
+Step 2: `cd Industrial6DPoseEstimation`
+
+Step 3: Download dataset from link (https://drive.google.com/file/d/1F_bZR9kxy7iDm1Cvg54xvJ-YIPL8MIbB/view?usp=sharing) and put inside this repo with all images inside JPEGImages and all labels inside labels folder
+
+Step 4: Download pre-trained model weights and put inside `backup` folder
+
+Step 5: Build and run docker as below
+
+`sudo docker build --network=host -t sspe .`
+
+`sudo docker run --gpus all -it --rm --network=host sspe`
+
+Step 6: Run `python/python3 python blender_train.py blender_3dbox.data yolo-pose.cfg backup/init.weights`
+
+
